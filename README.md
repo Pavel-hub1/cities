@@ -18,16 +18,21 @@
 Теперь приложение доступно из docker контейнера.</p>
 <h3>Структура проекта</h3>
 <ul>
-<li><code>app</code></li>
+<li><code>backend</code></li>
     <ul>
     <li><code>cities.txt</code></li>
-    <li><code>client.py</code></li>
+    <li><code>Dockerfile</code></li>
     <li><code>main.py</code></li>
     <li><code>models.py</code></li>
+    <li><code>requirements.txt</code></li>
+    </ul>
+<li><code>frontend</code></li>
+    <ul>
+    <li><code>Dockerfile</code></li>
+    <li><code>client.py</code></li>
+    <li><code>requirements.txt</code></li>
     </ul>
 <li><code>docker-compose.yml</code></li>
-<li><code>Dockerfile</code></li>
-<li><code>requirements.txt</code></li>
 <li><code>README.md</code></li>
 </ul>
 <p style="text-indent: 30px;">Файл <code>cities.txt</code> выступает некой базой данных, в котором содержится список 
