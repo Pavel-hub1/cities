@@ -24,4 +24,4 @@ services:
       - ./frontend:/frontend
     command: streamlit run client.py
     ports:
-      - "80:80"
+      - "8000:8501"

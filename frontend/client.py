@@ -5,7 +5,7 @@ import streamlit as st
 
 st.button('Ввод')
 str_input = st.text_input('')
-url = 'http://localhost:8000/'
+url = 'http://backend:80/'
 
 while True:
     try:
