@@ -1,0 +1,22 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: fastapi
+    external_links:
+      - streamlit:streamlit
+    volumes:
+      - ./backend:/backend
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    depends_on:
+      - backend
+    container_name: streamlit
+    volumes:
+      - ./frontend:/frontend
+    ports:
+      - "80:80"
