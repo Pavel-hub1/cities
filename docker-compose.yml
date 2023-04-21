@@ -18,5 +18,6 @@ services:
     container_name: streamlit
     volumes:
       - ./frontend:/frontend
+    command: streamlit run client.py
     ports:
       - "80:80"
