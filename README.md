@@ -35,6 +35,9 @@
 <li><code>docker-compose.yml</code></li>
 <li><code>README.md</code></li>
 </ul>
+<p style="text-indent: 30px;">Каталог <code>backend</code> содержит файлы, составляющие логику приложения.</p>
+<p style="text-indent: 30px;">Каталог <code>frontend</code> содержит файлы, отвечающие за разработку 
+пользовательского интерфейса и функций, которые работают на клиентской стороне приложения</p>
 <p style="text-indent: 30px;">Файл <code>cities.txt</code> выступает некой базой данных, в котором содержится список 
 всех известных город в России.</p>
 <p style="text-indent: 30px;"><code>client.py</code> - файл с вводом и выводом данных на фреймворке Streamlit. С помощью данного
